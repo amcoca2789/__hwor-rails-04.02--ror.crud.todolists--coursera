@@ -1,4 +1,4 @@
-class CreateTodoItems < ActiveRecord::Migration
+class CreateTodoItems < ActiveRecord::Migration[4.2]
   def change
     create_table :todo_items do |t|
       t.date :due_date
